@@ -5058,7 +5058,7 @@ figcaption {
 }
 
 .about-divider {
-  border-bottom: 1px dashed var(--color--black-20);
+  border-bottom: 1px dashed #a58c3a;
 }
 
 .grid-about-counter {
@@ -5102,7 +5102,7 @@ figcaption {
 }
 
 .counter-count.feature-number {
-  color: var(--color--black);
+  color: #a58c3a;
   font-size: var(--_typography---h3--h3);
 }
 
@@ -5132,7 +5132,7 @@ figcaption {
 }
 
 .about-number {
-  color: var(--color--white);
+  color: #a58c3a;
   font-size: var(--_typography---h2--h2);
   line-height: var(--_typography---h1--line-height);
   margin-bottom: 0;
@@ -5431,7 +5431,7 @@ figcaption {
 .team-item {
   border: 1px solid var(--color--gray-2-30);
   border-radius: var(--border-radius--lg);
-  background-color: var(--color--white);
+  /* background-color: var(--color--white); */
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -5452,8 +5452,11 @@ figcaption {
   height: 100%;
 }
 
+li::marker {
+  color: #a58c3a; /* change to any color */
+}
 .team-info {
-  background-color: var(--color--white);
+  background-color:  rgba(212, 175, 55, 0.06);
   padding: 1.563rem;
 }
 
@@ -5464,6 +5467,7 @@ figcaption {
 
 .team-position {
   line-height: var(--_typography---body--line-height-2);
+  color: #a58c3a;
 }
 
 .grid-awards {
@@ -5555,7 +5559,7 @@ figcaption {
 .blog-item {
   border: 1px solid var(--color--gray-2-30);
   border-radius: var(--border-radius--lg);
-  background-color: var(--color--white);
+  background-color:  rgba(212, 175, 55, 0.06);
   flex-flow: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -5594,6 +5598,7 @@ figcaption {
 .blog-title {
   font-size: var(--_typography---h6--h6);
   margin-bottom: 1.875rem;
+  color: white;
 }
 
 .blog-detail {
@@ -6742,6 +6747,7 @@ figcaption {
 .feature-number {
   font-size: var(--_typography---h3--h3);
   margin-bottom: 0;
+  color: #a58c3a;
 }
 
 .dashboard-10 {
@@ -6794,7 +6800,7 @@ figcaption {
 }
 
 .testimonial-name {
-  color: var(--color--black);
+  color:white;
   line-height: var(--_typography---body--line-height-3);
   margin-bottom: .2rem;
 }
@@ -6802,6 +6808,7 @@ figcaption {
 .testimonial-position {
   font-size: var(--_typography---body--body-sm);
   line-height: var(--_typography---body--line-height-2);
+  color: #a58c3a;
 }
 
 .testimonial-top {
@@ -8290,6 +8297,7 @@ figcaption {
     margin-right: .9375rem;
     padding-left: .9375rem;
     padding-right: .9375rem;
+        background-color: rgba(212, 175, 55, 0.06);
   }
 
   .grid-nav {
