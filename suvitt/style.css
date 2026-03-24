@@ -36,7 +36,14 @@ video {
   vertical-align: baseline;
   display: inline-block;
 }
-
+ .logo-wordmark{
+    font-family: 'Instrument Serif', serif;
+    font-size: 19px;
+    letter-spacing: .18em;
+    color: var(--W);
+    text-transform: uppercase;
+    color: white;
+ }
 audio:not([controls]) {
   height: 0;
   display: none;
@@ -2576,7 +2583,7 @@ figcaption {
 .form-input {
   border: 1px solid var(--color--gray-6);
   border-radius: var(--border-radius--form-input);
-  background-color: var(--color--white);
+  background-color: rgba(255, 250, 250, 0.06);
   color: var(--color--gray-1);
   font-size: var(--_typography---body--body-md);
   line-height: var(--_typography---body--line-height-4);
@@ -3115,7 +3122,7 @@ figcaption {
 
 .footer-social-link {
   border-radius: var(--border-radius--xs);
-  background-color: var(--color--gray-4);
+  background-color: #c0a039;
   flex-flow: column;
   justify-content: center;
   align-items: center;
@@ -3488,7 +3495,7 @@ figcaption {
 
 .submit-button {
   border-radius: var(--border-radius--button);
-  background-color: var(--color--black);
+  background-color: #c0a039;
   color: var(--color--white);
   font-size: var(--_typography---body--body-md);
   line-height: var(--_typography---body--line-height-3);
@@ -3498,7 +3505,7 @@ figcaption {
 }
 
 .submit-button:hover {
-  background-color: var(--color--gray-1);
+  background-color: #a58c3a;
 }
 
 .submit-button.button-full {
@@ -3994,9 +4001,9 @@ figcaption {
 }
 
 .badge {
-  border: 1px solid var(--color--gray-2-30);
+  border: 1px solid #d4af37;
   border-radius: var(--border-radius--sm);
-  background-color: var(--color--gray-6);
+  background-color: #0b1e3d;
   font-size: var(--_typography---body--body-xs);
   line-height: var(--_typography---body--line-height-4);
   flex-flow: column;
@@ -4004,6 +4011,7 @@ figcaption {
   align-items: center;
   padding: .25rem .625rem;
   display: flex;
+  font-weight: bold;
 }
 
 .badge:where(.w-variant-1672bf56-95f3-63cf-aeb6-b66cb4dbdda5) {
@@ -4046,8 +4054,8 @@ figcaption {
 .use-case-slider {
   background-color: var(--color--transparent);
   height: 100%;
-  margin-top: -5rem;
-  padding-top: 5rem;
+  margin-top: -2rem;
+  padding-top: 8rem;
   overflow: hidden;
 }
 
@@ -4582,7 +4590,7 @@ figcaption {
 .request-demo-left {
   border: 1px solid var(--color--gray-2-30);
   border-radius: var(--border-radius--lg);
-  background-color: var(--color--white);
+  background: rgba(212, 175, 55, 0.06);
   padding: 1.875rem;
 }
 
@@ -6501,9 +6509,9 @@ figcaption {
   grid-row-gap: var(--gap--gap-2);
   border: 1px solid var(--color--gray-2-30);
   border-radius: var(--border-radius--xs);
-  background-color: var(--color--black-20);
+  /* background-color: var(--color--black-20);
   -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px); */
   flex-flow: wrap;
   justify-content: flex-start;
   align-items: center;
